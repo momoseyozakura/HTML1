@@ -86,6 +86,7 @@ span{
 .main1-images{
   margin-bottom:30px;
   width:100%;
+  display:flex;
 }
 .main1-image1{
   margin-right:8px;
@@ -215,6 +216,9 @@ span{
   }
  .phone-img{
    display:none;
+ }
+ .main2{
+   display:block;
  }
 }
 
