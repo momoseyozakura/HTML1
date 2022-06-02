@@ -12,6 +12,9 @@ p{
 a{
   text-decoration: none;
 }
+img{
+  vertical-align: middle;
+}
 .header-left{
   float: left;
 }
@@ -227,11 +230,24 @@ span{
     margin-left:calc(((100vw - 100%)/2)*-1);
     margin-right:calc(((100vw - 100%)/2)*-1);
   }
-  
+  .main1-btn1{
+    margin-right:0;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+  }
+  .main1-btn2{
+    display:none;
+  }
   
   .main1-body {
     margin:0 auto 0;
     position:relative;
+    padding-top:400px;
+  }
+  .main1-sub{
+    position:relative;
+    padding:30px;
   }
   header{
     background-color:white;
@@ -241,5 +257,12 @@ span{
   }
   .phone-img{
     display:block;
+    width:100%;
+    height:auto;
+    border:0;
+    position:absolute;
   }
+ .main2{
+   display:block;
+ }
 }
