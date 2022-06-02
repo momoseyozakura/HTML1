@@ -140,8 +140,14 @@ span{
 .video{
   width:100%;
 }
+.main2-title{
+  font-size:30px;
+}
 .main2-contents{
   margin-left:20px;
+}
+.main2-link{
+  margin:15px 0;
 }
 .menu-btn{
   margin:10px;
@@ -203,6 +209,9 @@ span{
 @media screen and (min-width:768px) and (max-width:1080px) {
   header{
     background-color:white;
+    position:fixed;
+    top:0;
+    z-index:10;
   }
   .header-right ul{
     display:none;
@@ -219,6 +228,10 @@ span{
  }
  .main2{
    display:block;
+ }
+ .main2-contents{
+   margin-left:0;
+   width:75%;
  }
 }
 
@@ -255,6 +268,9 @@ span{
   }
   header{
     background-color:white;
+    position:fixed;
+    top:0;
+    z-index:10;
   }
   .header-right ul{
     display:none;
@@ -268,5 +284,9 @@ span{
   }
  .main2{
    display:block;
+ }
+ .main2-contents{
+   margin-bottom:0;
+   width:100%;
  }
 }
