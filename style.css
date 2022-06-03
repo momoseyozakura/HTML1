@@ -30,8 +30,11 @@ img{
 .header-right{
   float:right;
 }
-.hrader-right ul{
+.header-right ul{
   margin:0 0 0 auto;
+}
+li{
+  margin-right:40px;
 }
 .header-right ul li{
   list-style: none;
@@ -119,6 +122,9 @@ span{
   display:inline-block;
   align-items:center;
   padding:20px 20px;
+}
+.main1-btn2:hover{
+  opacity: .8;
 }
 .main1-sub{
   color:#a2a2a4;
