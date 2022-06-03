@@ -202,41 +202,6 @@ span{
     background-position: center;
     width:100%;
   }
-/*PC*/
-@media screen and (min-width:1081px) {
-  .hmb-menu{
-    display:none;
-  }
- 
-  .phone-img{
-    display:none;
-  }
-  
-}
-/*中間*/
-@media screen and (min-width:768px) and (max-width:1080px) {
-  header{
-    background-color:white;
-    position:fixed;
-    top:0;
-    z-index:10;
-  }
-  .header-right ul{
-    display:none;
-  }
- 
- .phone-img{
-   display:none;
- }
- .main2{
-   display:block;
- }
- .main2-contents{
-   margin-left:0;
-   width:75%;
- }
-}
-
 /*スマホ*/
 @media screen and (max-width:767px) {
   .main1{
@@ -294,4 +259,40 @@ span{
  .first-view{
    background-image:none;
  }
+}
+/*中間*/
+@media screen and (min-width:768px) and (max-width:1080px) {
+  header{
+    background-color:white;
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  .header-right ul{
+    display:none;
+  }
+ 
+ .phone-img{
+   display:none;
+ }
+ .main2{
+   display:block;
+ }
+ .main2-contents{
+   margin-left:0;
+   width:75%;
+ }
+}
+
+
+/*PC*/
+@media screen and (min-width:1081px) {
+  .hmb-menu{
+    display:none;
+  }
+ 
+  .phone-img{
+    display:none;
+  }
+  
 }
